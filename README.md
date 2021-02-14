@@ -35,12 +35,18 @@ Run the index.html file in live server to visualize the map (in the directory li
 https://github.com/KLacerda08/leaflet-challenge/tree/main/Leaflet-Step-1
 
 ## Evaluation - Are You in a High Risk Earthquake Zone?  
+
+As of the date of this evaluation (2/13/2021), over the past week, most of the earthquakes in the Continental US have been below Magnitude 4 on the Richter Scale, indicating a negligible likelihood of damage (https://www.usgs.gov/media/images/eq-magnitude-energy-release-and-shaking-intensity-6).  Earthquake depths tended to be shallow (less than 10 kilometers (km) deep). A small number in the western US (CA, WA, and NV) reached depths of 30 to 50 km.  
+
+#### Contintental US
 ![Title](images/satellite_snip.png)
 
-As of the date of this evaluation (2/13/2021), over the past week, most of the earthquakes in the Continental US have been below Magnitude 4 on the Richter Scale, indicating a negligible likelihood of damage (https://www.usgs.gov/media/images/eq-magnitude-energy-release-and-shaking-intensity-6).  Earthquake depths tended to be shallow (less than 10 kilometers (km) deep). A small number in the western US (CA, WA, and NV) reached depths of 30 to 50 km.  In contrast, the depth and frequency of occurrence of earthquakes in Alaska are much greater than in the Contintental US.  Along the Pacific Rim in Central America, South America, Asia and Pacific Island nations, earthquake magnitude and depth tended to be consistently higher. 
+In contrast, the depth and frequency of occurrence of earthquakes in Alaska are much greater than in the Contintental US.  Along the Pacific Rim in Central America, South America, Asia and Pacific Island nations, earthquake magnitude and depth tended to be consistently higher. 
 
+#### South Pacific Rim
 ![Title](images/south_pac_rim.png)
 
+#### Asia Pacific Rim
 ![Title](images/asia_pac_rim.png)
 
 A map of the Pacific Rim / Ring of Fire is provided below for context.   

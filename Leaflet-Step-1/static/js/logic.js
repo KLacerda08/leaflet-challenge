@@ -1,12 +1,10 @@
 // Dataset = Earthquakes over the past week
-// base url = https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 // Store our API endpoint inside queryUrl
-
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // Perform a GET request to the query URL
 d3.json(queryUrl, function (record) {
-  // Once we get a response, send the data.features object to the createFeatures function
+  // send the data.features object to the createFeatures function
   createFeatures(record.features);
   
   // create markerColor function
@@ -46,7 +44,7 @@ d3.json(queryUrl, function (record) {
       onEachFeature: onEachFeature,
       pointToLayer: function (record, latlng) {
         var markerType = {
-          radius: 3.5 * record.properties.mag,
+          radius: 4 * record.properties.mag,
           fillColor: markerColor(record.geometry["coordinates"][2]),
           color: "black",
           weight: 1,
